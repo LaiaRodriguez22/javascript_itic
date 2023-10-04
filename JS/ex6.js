@@ -14,4 +14,8 @@ function calcularTrucada(){
 
     console.log(`El preu per segon:  ${preuSegons}`);
     console.log(`El preu total: ${total}`);
+
+    total = total % 100;
+
+    console.log(`El preu total: ${total}`);
 }
