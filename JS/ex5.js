@@ -59,6 +59,12 @@ function calcularBinario(){
 }
 
 function calcularHDecimal(){    
-
-
+    let lletrasHexaDecimal = "0123456789ABCDEF";
+    while (x != 0) {
+        aux = x%16
+        z = lletrasHexaDecimal.charAt(aux)+z
+        x = Math.floor(x/16)
+    } 
+    console.log(z) 
+  
 }
