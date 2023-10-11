@@ -38,8 +38,11 @@ function taulaMultiplicacio(){
 
     ha de ser un numero imparell
 
+    3 FORS: Un for per alçada, i un per blancs, un per vermells i un altre més per blancs
+
 */ 
 function taulaPiramide(){
-    let fil = prompt("Entra un numero.", "Exemple: 2");
-
+    let numColumnes = prompt("Entra un numero impar per les columnes.", "Exemple: 3");
+    let numFiles = Math.floor((numColumnes-1)/2);
+    
 }
