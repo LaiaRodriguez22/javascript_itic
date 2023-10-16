@@ -17,11 +17,11 @@ function taulaMultiplicacio(){
         const fila = document.createElement("tr");
       
         for (let j = 1; j <= colum; j++) {
-            const celda = document.createElement("td");
-            celda.style.border="1px solid red";
+            const cella = document.createElement("td");
+            cella.style.border="1px solid red";
             const cellText = document.createTextNode(`${i * j}`);
-            celda.appendChild(cellText);
-            fila.appendChild(celda);
+            cella.appendChild(cellText);
+            fila.appendChild(cella);
         }
 
         tBody.appendChild(fila);
@@ -43,11 +43,12 @@ function taulaMultiplicacio(){
 */ 
 function taulaPiramide() {
     let x = parseInt(prompt("NUM COLS"));
-    //EM FALTA DIR QUE SI EL PROMT % 1, BREAK. QUE AIXO DEFET ES UN IF, ELSE
-    let y = Math.floor(x/2)+1 
+    let y = Math.floor(x/2)+1;
+
     const tble = document.createElement("table");
     const tBody = document.createElement("tbody");
-    let blanc, vermell
+
+    let blanc, vermell;
     blanc = Math.floor((x-1)/2)
     vermell = 1
     
@@ -70,8 +71,8 @@ function taulaPiramide() {
   
     tble.appendChild(tBody);
     document.body.appendChild(tble);
-    tble.style.border="3px double purple";
     tble.style.margin="auto";
+    tble.style.border="3px double purple";
 }
 
 function createCella(color, fila){
