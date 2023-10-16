@@ -71,6 +71,7 @@ function taulaPiramide() {
     tble.appendChild(tBody);
     document.body.appendChild(tble);
     tble.style.border="3px double purple";
+    tble.style.margin="auto";
 }
 
 function createCella(color, fila){
