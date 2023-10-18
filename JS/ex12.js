@@ -17,6 +17,6 @@ function countA(){
         console.log("Hi han tantes As com Bs");
     } 
     else {
-        console.log("Trukutru");
+        console.log("False");
     }
 }
