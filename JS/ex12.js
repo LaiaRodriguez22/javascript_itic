@@ -6,3 +6,17 @@ function arxiuExtensio(){
     console.log("L'extensio es: " + splitedUser[1]);
                             //splitedUser.length-1
 }
+
+//Demanar un text a l'usuari i dir si té el mateix numero de A's que de B's. 
+function countA(){
+    let x = prompt("Dona'm un text amb moltes A i B");
+    let countA = 0;
+    let countB = 0;
+
+    if(countB == countA){
+        console.log("Hi han tantes As com Bs");
+    } 
+    else {
+        console.log("Trukutru");
+    }
+}
