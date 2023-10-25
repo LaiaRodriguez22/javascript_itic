@@ -3,3 +3,13 @@
 
     NO ENTENC KE DEMANA LA VERITAT. 
 */
+
+function anyDimecres(){
+
+}
+
+/*
+    Dir si una paraula introduida és pentavocalica (conté les 5 vocals)
+*/
+
+function paraulaPentavocal(){}
