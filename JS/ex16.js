@@ -12,6 +12,14 @@
 
 function trukutru(){
     let dataUser = new Date();
-    console.log("Avui som al ", dataUser.getDay()+ " del mes "+ dataUser.getMonth(), " del any: ", dataUser.getFullYear());
+    console.log("Avui som al " + dataUser.getDate() + " del mes " + (dataUser.getMonth()+1) + " del any: " + dataUser.getFullYear());
 
 }
+
+/*
+    Els codis de barres a Europa poden tenir 8 o 13 digits (EAN8, EAM3) la xifra mes  a la dreta esta calculada segons la 
+    formula on els digits imparells es multipliquen x3 i els parells x1. 2*3+5*1+9*3
+    El digit final és la diferencia entre el num calculat i el proper num multiple de 10. 
+
+*/
+
